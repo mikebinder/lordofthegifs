@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "rings";
+    src: url("rings.ttf");  
+}
+
+@font-face {
+    font-family: "rings2";
+    src: url("rings2.ttf");  
+}
+
+.searchButtons {
+    background-color: #EEEEEE;
+    color: black;
+    font-family: "rings";
+    margin: 10px;
+}
+body {
+    background-image: url("fellowship.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.gif {
+    margin: 10px;
+    border: 3px black solid;
+}
+
+.gifContainer {
+    float: left;
+}
+
+#displaySection {
+    color: gray;
+    font-family: "rings";  
+    font-size: 20px;
+    
+}
+
+.header {
+  
+    font-family: "rings2";
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 55px;
+    color: gold;
+    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+}
+
+.gifRatings {
+    font-family: "rings-2";
+    color: red;
+}
+
+.subtext {
+
+    font-family: "rings2";
+}
+
+.form-group {
+    align-content: center;
+    margin: 10px;
+    font-family: "rings2";
+}
+
+#show {
+    font-family: "rings";
+    margin: 10px;
+    background-color: #EEEEEE;
+    color: black;
+    font-weight: 55px;
+    box-shadow: 3px black solid;
+}
